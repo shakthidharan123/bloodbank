@@ -1,0 +1,46 @@
+.bl{
+    height:40%;
+    max-width:40%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.bcard{
+    width:150px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.11);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin:10px;
+    margin-right: 40px;
+    margin-left: 30px;
+    text-align: center;
+    max-width: 200px;
+
+}
+.bouter{
+    display: flex;
+    
+    overflow-y: auto;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    color:#fff;
+
+}
+
+.bouter :hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+ .btext{
+    color: azure;
+}

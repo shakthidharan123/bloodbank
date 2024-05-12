@@ -1,0 +1,21 @@
+.maindiv{
+    height:70%;
+    width: 50%;
+    background-color: rgb(225, 174, 19);
+}
+.but{
+    border-radius: 10px;
+    border:1px;
+    background-color: aqua;
+    padding:10px;
+
+}
+.box{
+    border-radius: 10px;
+    height:20px
+
+}
+
+.innerdiv{
+    margin-bottom: 50px;
+}

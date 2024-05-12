@@ -1,0 +1,105 @@
+.oTable{
+    height: 90vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    justify-content: center;
+    flex:2
+}
+.Grid{
+    display: grid;
+    grid-template-columns: 60% auto;
+    
+
+    
+  
+}
+.txt{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.bstock{
+    display: flex;
+
+}
+.search-bar {
+    width: 50%; /* Set the width of the search bar */
+    padding: 8px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Add rounded corners */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.search-bar:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: #007bff; /* Change border color when focused */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); /* Add box shadow when focused */
+}
+
+.ebut {
+    background-color: #4caf50; /* Green color for edit button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.ebut:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+.dbut {
+    background-color: #f44336; /* Red color for delete button */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.dbut:hover {
+    background-color: #d32f2f; /* Darker red color on hover */
+}
+
+.manage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+button{
+    margin-bottom: 10px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pagination-button {
+    background-color: #007bff; /* Blue color for pagination buttons */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Padding */
+    margin: 0 4px; /* Margin between buttons */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.pagination-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.current-page {
+    font-weight: bold; /* Make the current page number bold */
+}
